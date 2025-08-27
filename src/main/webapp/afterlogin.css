@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* styles.css */
+body {
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #283e51);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.error {
+    color: #ff4c4c;
+}

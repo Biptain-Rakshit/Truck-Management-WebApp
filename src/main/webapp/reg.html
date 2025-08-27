@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(-45deg, #57173f, #aeac93, #cfd9df, #104c6c);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #2c3e50;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 25px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            backdrop-filter: blur(5px);
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            width: 220px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            margin: 8px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            background: #6a89cc;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        input[type="submit"]:hover {
+            background: #4a69bd;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Registration Page Enter Your Details</h1><br>
+    
+    <form method="post" action="reg">
+        First name : <input type="text" name="fname"><br><br>
+        Last name : <input type="text" name="lname"><br><br>
+        Username : <input type="text" name="uname"><br><br>
+        Password : <input type="password" name="pass"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
