@@ -1,38 +1,33 @@
-Truck Management System
+🚚 Truck Management System
 
-A Java-based CRUD application to manage truck records with seamless integration to a MySQL database using JDBC.
+Truck Management System is a Java-based CRUD application designed to manage truck records efficiently. It integrates with a MySQL database using JDBC to perform real-time data storage and retrieval.
 
-Features
+🔧 Features
 
-CRUD Operations: Create, Read, Update, and Delete truck records.
+➕ Add new truck records (name, model, capacity, driver name)
 
-Truck Details Management: Store and update information such as:
+✏️ Update existing truck details
 
-Truck Name
+👀 View all truck information from the database
 
-Model
+❌ Delete records with validation checks
 
-Capacity
+💾 Real-time database operations with MySQL
 
-Driver Name
+🛠️ Simple and efficient code structure for easy maintenance
 
-Database Integration: Real-time data storage and retrieval using MySQL.
+🛠️ Tech Stack
 
-Data Validation: Ensures data consistency and integrity.
+Language: Java
 
-User-Friendly Interface: Simple console or GUI-based interaction.
+Database: MySQL
 
-Technologies Used
+Connectivity: JDBC (Java Database Connectivity)
 
-Java
-
-JDBC (Java Database Connectivity)
-
-MySQL
-
+📂 Project Structure
 Truck-Management-System/
 ├── src/
-│   ├── org/example/Truck.java
+│   ├── org/example/app.java
 │   ├── org/example/TruckDAO.java
 │   ├── org/example/Main.java
 │   └── ...
@@ -40,22 +35,18 @@ Truck-Management-System/
 │   └── truck_management.sql
 └── README.md
 
-Prerequisites
+📈 Future Enhancements
 
-Java JDK 8 or higher
+🌐 Convert to a web-based application using Servlets & JSP
 
-MySQL Server
+⚡ Upgrade to Spring Boot for enterprise-level features
 
-JDBC Driver for MySQL (Connector/J)
+🔐 Add authentication & role-based access
 
-Future Enhancements
+📊 Add reporting dashboard
 
-Add Servlet/JSP integration for a web-based UI.
+📫 Contact
 
-Implement Spring Boot for better scalability.
+Built with ❤️ by Biptain Rakshit
 
-Add authentication for secure access.
-
-Author
-
-Biptain Rakshit
+📧 Email: biptainr@gmail.com
